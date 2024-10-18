@@ -1,6 +1,6 @@
 {
   "url": "https://joebrock666.github.io/ton-connect-app/",
   "name": "ton connect app",
-  "manifest_version": "1",
-  "version": "1"
+  "manifest_version": 3,
+  "version": "1.0.0"
 }
