@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# TON Wallet Connection & Transaction Application
 
-First, run the development server:
+This is a mobile-responsive web application for connecting a TonKeeper crypto wallet and processing transactions in the TON TestNet network. The application is built using Next.js and the TonConnect SDK.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Connect to a TonKeeper wallet
+- Display wallet address and balance
+- Process transactions by transferring TON to a recipient's wallet address
+- Validation of wallet addresses and transaction amounts
+- Mobile-friendly design
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js**: React-based framework for server-side rendering and static site generation.
+- **TonConnect SDK**: For connecting and interacting with the TonKeeper wallet.
+- **Tailwind CSS**: For responsive and mobile-first design.
+- **Ton TestNet API**: For interacting with the blockchain to retrieve balance and process transactions.
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+To run the application locally, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Node.js (>= 14.x)
+- NPM or Yarn package manager
+- TonKeeper wallet installed
 
-## Deploy on Vercel
+### Steps
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/ton-wallet-app.git
+   cd ton-wallet-app
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. **Install Dependencies:**
+   Using npm:
+   ```bash
+   npm install
+   ```
+   Or using Yarn:
+   ```bash
+   yarn install
+   ```
+
+3. **Run the Development Server:**
+   ```bash
+   npm run dev
+   ```
+   Or using Yarn:
+   ```bash
+   yarn dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
