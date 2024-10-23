@@ -32,7 +32,7 @@ To run the application locally, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/ton-wallet-app.git
+   git clone https://github.com/joebrock666/ton-wallet-app.git
    cd ton-wallet-app
    ```
 
